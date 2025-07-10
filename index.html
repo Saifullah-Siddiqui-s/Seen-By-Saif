@@ -144,23 +144,30 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
     <script src="js/app.js"></script>
     <script>
-    // // Disable right-click context menu
-    // document.addEventListener('contextmenu', function(e) {
-    //     e.preventDefault();
-    // });
+    // Only block right-click and DevTools shortcuts on desktop devices
+    function isDesktop() {
+        return window.innerWidth > 1024 || (navigator.userAgent && !/Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent));
+    }
 
-    // Block common DevTools shortcuts
-    document.addEventListener('keydown', function(e) {
-        // F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U, Ctrl+Shift+C
-        if (
-            e.key === 'F12' ||
-            (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'J' || e.key === 'C')) ||
-            (e.ctrlKey && e.key === 'U')
-        ) {
-            e.preventDefault();
-            e.stopPropagation();
-        }
-    });
+    if (isDesktop()) {
+        // Disable right-click context menu
+        // document.addEventListener('contextmenu', function(e) {
+        //     e.preventDefault();
+        });
+
+        // Block common DevTools shortcuts
+        document.addEventListener('keydown', function(e) {
+            // F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U, Ctrl+Shift+C
+            if (
+                e.key === 'F12' ||
+                (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'J' || e.key === 'C')) ||
+                (e.ctrlKey && e.key === 'U')
+            ) {
+                e.preventDefault();
+                e.stopPropagation();
+            }
+        });
+    }
     </script>
 </body>
 </html>
