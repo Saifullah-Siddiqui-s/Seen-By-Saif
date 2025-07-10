@@ -11,27 +11,27 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             id: 2,
-            title: "Mountain Serenity",
-            location: "Himalayas, India",
-            tags: ["Nature", "Mountains", "Landscape"],
-            url: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-            downloadUrl: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+            title: "Delhi Metro Night Phtographs",
+            location: "Delhi Metro, India",
+            tags: ["Delhi", "Dark", "Metro"],
+            url: "https://res.cloudinary.com/dt69t3xbw/image/upload/v1752154591/IMG20250710112504_zkvhpa.jpg",
+            downloadUrl: "https://res.cloudinary.com/dt69t3xbw/image/upload/v1752154591/IMG20250710112504_zkvhpa.jpg"
         },
         {
             id: 3,
-            title: "Urban Jungle",
-            location: "Mumbai, India",
-            tags: ["Urban", "Architecture", "City"],
-            url: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-            downloadUrl: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+            title: "Bihar Landscape",
+            location: "Bihar, India",
+            tags: ["Bihar", "Rural", "Village", "Landscape"],
+            url: "https://res.cloudinary.com/dt69t3xbw/image/upload/v1752154392/IMG20250702191344_ntk4qn.jpg",
+            downloadUrl: "https://res.cloudinary.com/dt69t3xbw/image/upload/v1752154392/IMG20250702191344_ntk4qn.jpg"
         },
         {
             id: 4,
             title: "Railway Tracks",
-            location: "Unknown",
+            location: "New Delhi",
             tags: ["Railway", "Black & White", "Minimal"],
-            url: "https://images.unsplash.com/photo-1519817650390-64a93db51149?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-            downloadUrl: "https://images.unsplash.com/photo-1519817650390-64a93db51149?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+            url: "https://res.cloudinary.com/dt69t3xbw/image/upload/v1752154496/IMG20250627131334_puqpfj.jpg",
+            downloadUrl: "https://res.cloudinary.com/dt69t3xbw/image/upload/v1752154496/IMG20250627131334_puqpfj.jpg"
         },
         {
             id: 5,
