@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             id: 6,
             title: "Connaught Place Roads",
-            location: "Connaught Place,Delhi, India",
+            location: "Connaught Place, Delhi, India",
             tags: ["Street", "Urban", "Delhi"],
             url: "https://res.cloudinary.com/dt69t3xbw/image/upload/v1752154551/IMG20250623194434_ca87uq.jpg",
             downloadUrl: "https://res.cloudinary.com/dt69t3xbw/image/upload/v1752154551/IMG20250623194434_ca87uq.jpg"
