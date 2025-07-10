@@ -144,30 +144,58 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
     <script src="js/app.js"></script>
     <script>
-    // Only block right-click and DevTools shortcuts on desktop devices
-    function isDesktop() {
-        return window.innerWidth > 1024 || (navigator.userAgent && !/Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent));
-    }
+  // Disable right-click
+  document.addEventListener('contextmenu', e => e.preventDefault());
 
-    if (isDesktop()) {
-        Disable right-click context menu
-        document.addEventListener('contextmenu', function(e) {
-            e.preventDefault();
-        });
-
-        // Block common DevTools shortcuts
-        document.addEventListener('keydown', function(e) {
-            // F12, Ctrl+Shift+I, Ctrl+Shift+J, Ctrl+U, Ctrl+Shift+C
-            if (
-                e.key === 'F12' ||
-                (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'J' || e.key === 'C')) ||
-                (e.ctrlKey && e.key === 'U')
-            ) {
-                e.preventDefault();
-                e.stopPropagation();
-            }
-        });
+  // Disable common inspect shortcuts
+  document.addEventListener('keydown', e => {
+    if (
+      e.key === "F12" ||
+      (e.ctrlKey && e.shiftKey && ['I', 'J', 'C'].includes(e.key.toUpperCase())) ||
+      (e.ctrlKey && e.key.toLowerCase() === 'u')
+    ) {
+      e.preventDefault();
     }
-    </script>
+  });
+
+  // Disable text selection, copy, cut, paste, drag
+  ['copy', 'cut', 'paste', 'selectstart', 'dragstart'].forEach(event => {
+    document.addEventListener(event, e => e.preventDefault());
+  });
+
+  // DevTools open detection via console timing trap
+  let devtoolsOpen = false;
+  const checkDevTools = () => {
+    const start = new Date();
+    debugger;
+    const end = new Date();
+    if (end - start > 100) {
+      if (!devtoolsOpen) {
+        devtoolsOpen = true;
+        alert('DevTools are blocked.');
+        window.location.href = "about:blank";
+      }
+    }
+  };
+  setInterval(checkDevTools, 1000);
+
+  // Detect console opening via toString trap
+  (function () {
+    const trap = {
+      get: function () {
+        alert('DevTools detected!');
+        window.location.href = 'about:blank';
+      }
+    };
+    const fakeEl = new Proxy({}, trap);
+    console.log(fakeEl);
+  })();
+
+  // Obfuscated code (basic, you can improve with real obfuscators)
+  (function(){
+    const _0x5c3e=["log"];console[_0x5c3e[0]]("%cSTOP!","color:red;font-size:40px");
+  })();
+</script>
+
 </body>
 </html>
