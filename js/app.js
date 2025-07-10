@@ -43,11 +43,11 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             id: 6,
-            title: "Street Life",
-            location: "Delhi, India",
-            tags: ["Street", "Urban", "People"],
-            url: "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1476&q=80",
-            downloadUrl: "https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1476&q=80"
+            title: "Connaught Place Roads",
+            location: "Connaught Place,Delhi, India",
+            tags: ["Street", "Urban", "Delhi"],
+            url: "https://res.cloudinary.com/dt69t3xbw/image/upload/v1752154551/IMG20250623194434_ca87uq.jpg",
+            downloadUrl: "https://res.cloudinary.com/dt69t3xbw/image/upload/v1752154551/IMG20250623194434_ca87uq.jpg"
         },
         {
             id: 7,
