@@ -35,11 +35,11 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             id: 5,
-            title: "Beach Sunset",
-            location: "Goa, India",
-            tags: ["Beach", "Sunset", "Nature"],
-            url: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1473&q=80",
-            downloadUrl: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1473&q=80"
+            title: "Sunset Over Tree",
+            location: "Delhi, India",
+            tags: ["Sunset", "Nature"],
+            url: "https://res.cloudinary.com/dt69t3xbw/image/upload/v1752154460/IMG20250622180246_zhd8or.jpg",
+            downloadUrl: "https://res.cloudinary.com/dt69t3xbw/image/upload/v1752154460/IMG20250622180246_zhd8or.jpg"
         },
         {
             id: 6,
@@ -51,19 +51,19 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             id: 7,
-            title: "Misty Mountains",
-            location: "Himalayas, India",
-            tags: ["Nature", "Mountains", "Fog"],
-            url: "https://images.unsplash.com/photo-1429087969512-1e85aab2683d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-            downloadUrl: "https://images.unsplash.com/photo-1429087969512-1e85aab2683d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+            title: "Misty Delhi",
+            location: "Delhi, India",
+            tags: ["Nature", "Delhi", "Rain"],
+            url: "https://res.cloudinary.com/dt69t3xbw/image/upload/v1752154414/IMG20250623190049_pvgfwc.jpg",
+            downloadUrl: "https://res.cloudinary.com/dt69t3xbw/image/upload/v1752154414/IMG20250623190049_pvgfwc.jpg"
         },
         {
             id: 8,
-            title: "Desert Road",
-            location: "Rajasthan, India",
-            tags: ["Desert", "Road", "Minimal"],
-            url: "https://images.unsplash.com/photo-1509316785289-025f5b846b35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1476&q=80",
-            downloadUrl: "https://images.unsplash.com/photo-1509316785289-025f5b846b35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1476&q=80"
+            title: "Sunderwala Burj",
+            location: "Sunder Nursery, Delhi, India",
+            tags: ["Garden", "Nursery", "Delhi"],
+            url: "https://res.cloudinary.com/dt69t3xbw/image/upload/v1752155492/IMG20250628191835_lht3m9.jpg",
+            downloadUrl: "https://res.cloudinary.com/dt69t3xbw/image/upload/v1752155492/IMG20250628191835_lht3m9.jpg"
         }
     ];
 
