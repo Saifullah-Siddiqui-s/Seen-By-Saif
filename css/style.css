@@ -156,7 +156,7 @@ body {
 
 /* Hero Section */
 .hero-section {
-    height: 100vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -286,15 +286,15 @@ body {
     animation: bounce 2s infinite;
 }
 
-.mouse {
+/* .mouse {
     width: 25px;
     height: 40px;
     border: 2px solid var(--text-dark);
     border-radius: 20px;
     position: relative;
-}
+} */
 
-.mouse::before {
+/* .mouse::before {
     content: '';
     position: absolute;
     top: 5px;
@@ -305,7 +305,7 @@ body {
     background: var(--text-dark);
     border-radius: 50%;
     animation: scroll 2s infinite;
-}
+} */
 
 .scroll-indicator span {
     font-size: 0.8rem;
@@ -798,6 +798,10 @@ body {
     .hero-title {
         font-size: 3rem;
     }
+
+    .chips-container {
+        width: 700px;
+    }
     
     .masonry-grid {
         columns: 3 200px;
@@ -820,7 +824,11 @@ body {
     .hero-subtitle {
         font-size: 1rem;
     }
-    
+
+    .chips-container {
+        width: 600px;
+    }
+
     .masonry-grid {
         columns: 2 200px;
     }
@@ -839,8 +847,17 @@ body {
 }
 
 @media (max-width: 576px) {
+    
     .hero-title {
         font-size: 2rem;
+    }
+
+    .search-container {
+        width: 350px;
+    }
+
+    .chips-container {
+        width: 400px;
     }
     
     .masonry-grid {
