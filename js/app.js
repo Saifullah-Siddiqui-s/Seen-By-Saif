@@ -5,9 +5,9 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 1,
             title: "Golden Hour in Delhi",
             location: "Delhi, India",
-            tags: ["Delhi", "Golden Hour", "Urban"],
-            url: "https://images.unsplash.com/photo-1587474260584-136574528ed5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-            downloadUrl: "https://images.unsplash.com/photo-1587474260584-136574528ed5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+            tags: ["Delhi", "Connaught Place", "Urban"],
+            url: "https://res.cloudinary.com/dt69t3xbw/image/upload/v1752154566/IMG20250623194907_as2t4v.jpg",
+            downloadUrl: "https://res.cloudinary.com/dt69t3xbw/image/upload/v1752154566/IMG20250623194907_as2t4v.jpg"
         },
         {
             id: 2,
